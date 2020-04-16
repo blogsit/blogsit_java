@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="blogsit_java" />
+        <module name="tns-open-price-altman-provider" />
+        <module name="tns-open-price-check" />
+        <module name="tns-open-price-city-provider" />
+        <module name="tns-open-price-common" />
+        <module name="tns-open-price-model" />
+        <module name="tns-open-price-monitor" />
+        <module name="tns-open-price-monitor-service" />
+        <module name="tns-open-price-offline-provider" />
+        <module name="tns-open-price-provider" />
+        <module name="tns-open-price-service" />
+        <module name="tns-open-price-task" />
+        <module name="tns-open-price-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blogsit_java" options="-J-Duser.country=US" />
+    </option>
+  </component>
+</project>
